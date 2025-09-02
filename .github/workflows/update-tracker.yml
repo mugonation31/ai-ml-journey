@@ -1,5 +1,8 @@
 name: Update Progress Tracker
 
+permissions:
+  contents: write # <-- allow pushes via GITHUB_TOKEN
+
 on:
   push:
     branches: [ main, master ]
